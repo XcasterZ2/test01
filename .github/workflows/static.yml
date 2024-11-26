@@ -39,8 +39,8 @@ jobs:
           # Upload entire repository
           
           path: |
-            ./views
-            ./style
+            views
+            style
           
       - name: Deploy to GitHub Pages
         id: deployment
