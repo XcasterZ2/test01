@@ -36,9 +36,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload views and style directories
-          path: |
-            views
-            style
+          path: '/views, /styles'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
